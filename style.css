@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+  background-image: url("https://i.imgur.com/hBm2Lg7.jpeg");
+  background-repeat: no-repeat;
+  background: image; center-fixed;
+  background-size: cover;
+
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 170px;
+}
+.logo{
+    max-height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+
+.content{
+    position: absolute;
+    left: 25%;
+    top: 18%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(lightblue,pink);
+   
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    color: #ededee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.main{
+  position: absolute;
+    left: 10%;
+    top: 8%;
+}
+
+
+.main h2{
+   color: #d2772d;
+    font-size: 50px;
+}
+footer{
+   color: #ededee;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #d18923;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #d48149;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+.body2
+{
+align-elements: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
